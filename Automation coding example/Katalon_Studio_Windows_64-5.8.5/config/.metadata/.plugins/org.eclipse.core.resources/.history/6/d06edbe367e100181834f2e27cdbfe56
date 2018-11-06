@@ -1,0 +1,14 @@
+package quality
+
+public class Common {
+	
+	/**
+	 * Launch Browser
+	 * @author sergio.ramones
+	 * @Parameter URL
+	 * **/
+	public void launchBrowser(){
+		
+	}
+	
+}

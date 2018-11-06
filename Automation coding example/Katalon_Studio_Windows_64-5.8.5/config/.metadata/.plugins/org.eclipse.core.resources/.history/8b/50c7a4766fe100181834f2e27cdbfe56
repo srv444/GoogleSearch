@@ -1,0 +1,19 @@
+/**
+ * This challenge is to automate the Google search of the term "test automation is awesome" 
+ * and return the title of the search page result to console out. 
+ * This project should take no more than 1 hour to complete
+ * and bonus points are given for simplicity & elegance of the solution.
+ * */
+
+ 
+ 'Open Browser in the URL'
+CustomKeywords.'quality.Common.launchBrowser'(URL)
+
+'Set information that will search'
+CustomKeywords.'quality.Common.searchInGoogle'(TEXT_SEARCH)
+
+'Show the title of all the pages found'
+CustomKeywords.'quality.Common.showTitles'()
+
+'Close Browser'
+CustomKeywords.'quality.Common.closeBrowser'()

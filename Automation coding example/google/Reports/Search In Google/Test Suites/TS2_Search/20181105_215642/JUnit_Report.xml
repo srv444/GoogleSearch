@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS2_Search" time="8" tests="1" failures="0" errors="0">
+   <testsuite name="TS2_Search" tests="1" failures="0" errors="0" time="8" timestamp="2018-11-05 21:57:08" hostname="sergio.ramones - SERGIORAMONES.neoris.cxnetworks.net" id="Test Suites/Search In Google/Test Suites/TS2_Search">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sergio.ramones\\Documents\\Automation coding example\\google\\Reports\\Search In Google\\Test Suites\\TS2_Search\\20181105_215642"/>
+         <property name="logFiles" value="C:\\Users\\sergio.ramones\\Documents\\Automation coding example\\google\\Reports\\Search In Google\\Test Suites\\TS2_Search\\20181105_215642\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sergio.ramones - SERGIORAMONES.neoris.cxnetworks.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.5.1"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="10.15.168.230"/>
+         <property name="sessionId" value="5caaffb0dbd40b9846b82dc61645f9dc"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC1_searchInGoogle" classname="Test Cases/TC1_searchInGoogle" status="PASSED">
+         <system-out><![CDATA[2018-11-05 21:57:08 - [TEST_CASE][PASSED] - Test Cases/TC1_searchInGoogle: Test Cases/TC1_searchInGoogle
+
+2018-11-05 21:57:08 - [TEST_STEP][PASSED] - quality.Common.launchBrowser: quality.Common.launchBrowser is PASSED
+
+2018-11-05 21:57:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-05 21:57:11 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-11-05 21:57:12 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/' successfully
+
+2018-11-05 21:57:13 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-05 21:57:13 - [MESSAGE][PASSED] - quality.Common.launchBrowser is PASSED
+
+2018-11-05 21:57:13 - [TEST_STEP][PASSED] - quality.Common.searchInGoogle: quality.Common.searchInGoogle is PASSED
+
+2018-11-05 21:57:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_HomeGoogle/txt_search' is present
+
+2018-11-05 21:57:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_HomeGoogle/txt_search' is visible
+
+2018-11-05 21:57:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_HomeGoogle/txt_search' is clickable
+
+2018-11-05 21:57:14 - [MESSAGE][PASSED] - Text 'Automation' is set on object 'Object Repository/Page_HomeGoogle/txt_search'
+
+2018-11-05 21:57:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_HomeGoogle/btn_search' is focused
+
+2018-11-05 21:57:14 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_HomeGoogle/btn_search' successfully
+
+2018-11-05 21:57:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_HomeGoogle/btn_search' is clicked on
+
+2018-11-05 21:57:15 - [MESSAGE][PASSED] - quality.Common.searchInGoogle is PASSED
+
+2018-11-05 21:57:15 - [TEST_STEP][PASSED] - quality.Common.showTitles: Búsquedas relacionadas con Automation
+
+2018-11-05 21:57:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_HomeGoogle/list_resultsTitle' is present
+
+2018-11-05 21:57:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_HomeGoogle/list_resultsTitle' is visible
+
+2018-11-05 21:57:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_HomeGoogle/list_resultsTitle' is clickable
+
+2018-11-05 21:57:15 - [MESSAGE][PASSED] - Automation - Wikipedia
+
+2018-11-05 21:57:15 - [MESSAGE][PASSED] - Automation.com - News & Resources for Manufacturing, Factory ...
+
+2018-11-05 21:57:15 - [MESSAGE][PASSED] - Automation
+
+2018-11-05 21:57:15 - [MESSAGE][PASSED] - What is Automation? - Definition from Techopedia
+
+2018-11-05 21:57:15 - [MESSAGE][PASSED] - What is Automation?- ISA
+
+2018-11-05 21:57:15 - [MESSAGE][PASSED] - Automation | Britannica.com
+
+2018-11-05 21:57:16 - [MESSAGE][PASSED] - IAS Automation
+
+2018-11-05 21:57:16 - [MESSAGE][PASSED] - Automation - The Car Company Tycoon Game on Steam
+
+2018-11-05 21:57:16 - [MESSAGE][PASSED] - Automation World | Covering the field of industrial automation
+
+2018-11-05 21:57:16 - [MESSAGE][PASSED] - Automation | Definition of Automation by Merriam-Webster
+
+2018-11-05 21:57:16 - [MESSAGE][PASSED] - Búsquedas relacionadas con Automation
+
+2018-11-05 21:57:16 - [TEST_STEP][PASSED] - quality.Common.closeBrowser: quality.Common.closeBrowser is PASSED
+
+2018-11-05 21:57:16 - [MESSAGE][PASSED] - Browser is closed
+
+2018-11-05 21:57:16 - [MESSAGE][PASSED] - quality.Common.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-05 21:57:08 - [TEST_SUITE][PASSED] - TS2_Search: Test Cases/TC1_searchInGoogle]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

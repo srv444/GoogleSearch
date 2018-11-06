@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS1_Search,Chrome 70.0.3538.77,,2018-11-05 21:56:45,2018-11-05 21:56:54,8.813s,PASSED
+,,,,,,
+Test Cases/TC1_searchInGoogle,Chrome 70.0.3538.77,,2018-11-05 21:56:45,2018-11-05 21:56:54,8.460s,PASSED
+quality.Common.launchBrowser,Chrome 70.0.3538.77,Open Browser in the URL,2018-11-05 21:56:46,2018-11-05 21:56:51,5.543s,PASSED
+quality.Common.searchInGoogle,Chrome 70.0.3538.77,Set information that will search,2018-11-05 21:56:51,2018-11-05 21:56:53,1.535s,PASSED
+quality.Common.showTitles,Chrome 70.0.3538.77,Show the title of all the pages found,2018-11-05 21:56:53,2018-11-05 21:56:53,0.562s,PASSED
+quality.Common.closeBrowser,Chrome 70.0.3538.77,Close Browser,2018-11-05 21:56:53,2018-11-05 21:56:54,0.632s,PASSED

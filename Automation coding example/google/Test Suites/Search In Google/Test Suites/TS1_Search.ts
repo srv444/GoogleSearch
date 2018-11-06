@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS1_Search</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-11-05T21:56:42</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>8a370481-aa70-41e5-a07b-27c22b6251ed</testSuiteGuid>
+   <testCaseLink>
+      <guid>9489ca6b-bec1-49c8-ba8a-ffd30ffe14c4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC1_searchInGoogle</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>42c491b1-90a1-49fb-80a7-76c2748b6e9d</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/googleSearch/TD01_SEARCH</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>42c491b1-90a1-49fb-80a7-76c2748b6e9d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>GOOGLE_URL</value>
+         <variableId>c3645446-c657-4dee-9106-0914c1499e4c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>42c491b1-90a1-49fb-80a7-76c2748b6e9d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TEXT_SEARCH</value>
+         <variableId>e6ed193b-7846-402a-bebf-3af310414b8e</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

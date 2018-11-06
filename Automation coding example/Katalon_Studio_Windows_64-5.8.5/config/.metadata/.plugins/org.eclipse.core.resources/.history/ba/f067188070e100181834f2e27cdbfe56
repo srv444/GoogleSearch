@@ -1,0 +1,79 @@
+package quality
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+
+import org.openqa.selenium.WebElement
+
+import com.kms.katalon.core.annotation.Keyword
+import com.kms.katalon.core.util.KeywordUtil
+import com.kms.katalon.core.webui.common.WebUiCommonHelper
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+public class Common {
+	
+	Object search = findTestObject('Object Repository/Page_HomeGoogle/txt_search')
+	Object buttonSearch = findTestObject('Object Repository/Page_HomeGoogle/btn_search')
+	Object titleList = findTestObject('Object Repository/Page_HomeGoogle/list_resultsTitle')
+	
+	/**
+	 * Launch Browser
+	 * @author sergio.ramones
+	 * @Parameter URL
+	 * **/
+	@Keyword
+	public void launchBrowser(url){
+		WebUI.openBrowser("")
+		WebUI.deleteAllCookies()
+		WebUI.navigateToUrl(url)		
+		WebUI.maximizeWindow()
+		
+	}//end method
+	
+	/**
+	 * Set Text and Click on search
+	 * @author sergio.ramones
+	 * @Paramenter TEXT
+	 * **/
+	@Keyword
+	public void searchInGoogle(String TEXT){
+		WebUI.waitForElementPresent(search, 5)
+		WebUI.waitForElementVisible(search, 5)
+		WebUI.waitForElementClickable(search, 5)
+		WebUI.setText(search, TEXT)
+		WebUI.focus(buttonSearch)
+		WebUI.click(buttonSearch)
+		
+	}//end method
+	
+	/**
+	 * Take the results titles and show in the console
+	 * @author sergio.ramones
+	 * @parameter N/A
+	 * **/
+	@Keyword
+	public void showTitles(){
+		WebUI.waitForElementPresent(titleList, 5)
+		WebUI.waitForElementVisible(titleList, 5)
+		WebUI.waitForElementClickable(titleList, 5)
+		
+		List<WebElement> titleList = WebUiCommonHelper.findWebElements(titleList, 5)
+		
+		for(int i = 0; i<titleList.size();i++){
+			System.out.println("\\n")
+			System.out.println(titleList.get(i).getText())
+			System.out.println("\\n")
+			KeywordUtil.markPassed(titleList.get(i).getText())
+		}
+		
+		
+	}//end method
+	
+	/**
+	 * Close Browser
+	 * @author sergio.ramones
+	 * @parameter N/A
+	 * **/
+	@Keyword
+	public void closeBrowser(){
+		WebUI.closeBrowser()
+	}
+	
+}

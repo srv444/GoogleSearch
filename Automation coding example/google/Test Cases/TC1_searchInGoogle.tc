@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC1_searchInGoogle</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cd6ce55f-29df-455c-b54d-031765122325</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c3645446-c657-4dee-9106-0914c1499e4c</id>
+      <masked>false</masked>
+      <name>GOOGLE_URL</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e6ed193b-7846-402a-bebf-3af310414b8e</id>
+      <masked>false</masked>
+      <name>TEXT_SEARCH</name>
+   </variable>
+</TestCaseEntity>

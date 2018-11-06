@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.kms.katalon.core.webui.common.WebUiCommonHelper"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+<fullyQualifiedTypeName name="com.kms.katalon.core.util.KeywordUtil"/>
+<fullyQualifiedTypeName name="com.kms.katalon.core.annotation.Keyword"/>
+<fullyQualifiedTypeName name="CustomKeywords"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords"/>
+</qualifiedTypeNameHistroy>

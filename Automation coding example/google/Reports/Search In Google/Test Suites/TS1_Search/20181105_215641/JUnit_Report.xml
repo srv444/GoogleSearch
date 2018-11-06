@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS1_Search" time="8" tests="1" failures="0" errors="0">
+   <testsuite name="TS1_Search" tests="1" failures="0" errors="0" time="8" timestamp="2018-11-05 21:56:45" hostname="sergio.ramones - SERGIORAMONES.neoris.cxnetworks.net" id="Test Suites/Search In Google/Test Suites/TS1_Search">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sergio.ramones\\Documents\\Automation coding example\\google\\Reports\\Search In Google\\Test Suites\\TS1_Search\\20181105_215641"/>
+         <property name="logFiles" value="C:\\Users\\sergio.ramones\\Documents\\Automation coding example\\google\\Reports\\Search In Google\\Test Suites\\TS1_Search\\20181105_215641\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sergio.ramones - SERGIORAMONES.neoris.cxnetworks.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.5.1"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="10.15.168.230"/>
+         <property name="sessionId" value="f8ed00c15420b0e7da5ec64d2f076233"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC1_searchInGoogle" classname="Test Cases/TC1_searchInGoogle" status="PASSED">
+         <system-out><![CDATA[2018-11-05 21:56:45 - [TEST_CASE][PASSED] - Test Cases/TC1_searchInGoogle: Test Cases/TC1_searchInGoogle
+
+2018-11-05 21:56:46 - [TEST_STEP][PASSED] - quality.Common.launchBrowser: quality.Common.launchBrowser is PASSED
+
+2018-11-05 21:56:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-05 21:56:49 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-11-05 21:56:50 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/' successfully
+
+2018-11-05 21:56:51 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-05 21:56:51 - [MESSAGE][PASSED] - quality.Common.launchBrowser is PASSED
+
+2018-11-05 21:56:51 - [TEST_STEP][PASSED] - quality.Common.searchInGoogle: quality.Common.searchInGoogle is PASSED
+
+2018-11-05 21:56:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_HomeGoogle/txt_search' is present
+
+2018-11-05 21:56:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_HomeGoogle/txt_search' is visible
+
+2018-11-05 21:56:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_HomeGoogle/txt_search' is clickable
+
+2018-11-05 21:56:52 - [MESSAGE][PASSED] - Text 'test automation is awesome' is set on object 'Object Repository/Page_HomeGoogle/txt_search'
+
+2018-11-05 21:56:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_HomeGoogle/btn_search' is focused
+
+2018-11-05 21:56:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_HomeGoogle/btn_search' successfully
+
+2018-11-05 21:56:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_HomeGoogle/btn_search' is clicked on
+
+2018-11-05 21:56:53 - [MESSAGE][PASSED] - quality.Common.searchInGoogle is PASSED
+
+2018-11-05 21:56:53 - [TEST_STEP][PASSED] - quality.Common.showTitles: 7 Awesome Exploratory Testing Tools - Software Testing - QualityLogic
+
+2018-11-05 21:56:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_HomeGoogle/list_resultsTitle' is present
+
+2018-11-05 21:56:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_HomeGoogle/list_resultsTitle' is visible
+
+2018-11-05 21:56:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_HomeGoogle/list_resultsTitle' is clickable
+
+2018-11-05 21:56:53 - [MESSAGE][PASSED] - UiPath Testing Automation | Robotic Process Automation | UiPath.com
+
+2018-11-05 21:56:53 - [MESSAGE][PASSED] - About UiPath
+
+2018-11-05 21:56:53 - [MESSAGE][PASSED] - What is RPA
+
+2018-11-05 21:56:53 - [MESSAGE][PASSED] - GitHub - atinfo/awesome-test-automation: A curated list of awesome ...
+
+2018-11-05 21:56:53 - [MESSAGE][PASSED] - awesome-test-automation/general-purpose-test-automation-tools.md ...
+
+2018-11-05 21:56:53 - [MESSAGE][PASSED] - GitHub - paralax/awesome-test-automation-pasteBinRead: A curated ...
+
+2018-11-05 21:56:53 - [MESSAGE][PASSED] - awesome-test-automation/automation-and-testing-as-service.md at ...
+
+2018-11-05 21:56:53 - [MESSAGE][PASSED] - Awesome Test Automation Made Simple | Sauce Labs
+
+2018-11-05 21:56:53 - [MESSAGE][PASSED] - atinfo/awesome-test-automation - Gitter
+
+2018-11-05 21:56:53 - [MESSAGE][PASSED] - 50+ resources for test automation engineers | TechBeacon
+
+2018-11-05 21:56:53 - [MESSAGE][PASSED] - 5 awesome reasons automated testing is worth the investment - Galil ...
+
+2018-11-05 21:56:53 - [MESSAGE][PASSED] - Imágenes de test automation is awesome
+
+2018-11-05 21:56:53 - [MESSAGE][PASSED] - 7 Awesome Exploratory Testing Tools - Software Testing - QualityLogic
+
+2018-11-05 21:56:53 - [TEST_STEP][PASSED] - quality.Common.closeBrowser: quality.Common.closeBrowser is PASSED
+
+2018-11-05 21:56:54 - [MESSAGE][PASSED] - Browser is closed
+
+2018-11-05 21:56:54 - [MESSAGE][PASSED] - quality.Common.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-05 21:56:45 - [TEST_SUITE][PASSED] - TS1_Search: Test Cases/TC1_searchInGoogle]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

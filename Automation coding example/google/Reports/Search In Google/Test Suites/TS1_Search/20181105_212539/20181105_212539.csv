@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS1_Search,Firefox 62.0,,2018-11-05 21:25:53,2018-11-05 21:26:05,11.881s,PASSED
+,,,,,,
+Test Cases/TC1_searchInGoogle,Firefox 62.0,,2018-11-05 21:25:54,2018-11-05 21:26:05,11.208s,PASSED
+quality.Common.launchBrowser,Firefox 62.0,Open Browser in the URL,2018-11-05 21:25:54,2018-11-05 21:26:03,8.531s,PASSED
+quality.Common.searchInGoogle,Firefox 62.0,Set information that will search,2018-11-05 21:26:03,2018-11-05 21:26:04,1.345s,PASSED
+quality.Common.showTitles,Firefox 62.0,Show the title of all the pages found,2018-11-05 21:26:04,2018-11-05 21:26:04,0.406s,PASSED
+quality.Common.closeBrowser,Firefox 62.0,Close Browser,2018-11-05 21:26:04,2018-11-05 21:26:05,0.609s,PASSED

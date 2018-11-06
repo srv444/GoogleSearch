@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+general.appCloseSuddenly=true
+general.numberOfAppCloses=4
+general.showHelpAtStartUp=false
+general.showUserFeedbackDialogOnAppClose=false

@@ -1,0 +1,9 @@
+INDEX VERSION 1.129+C:\Users\sergio.ramones\Documents\Automation coding example\Katalon_Studio_Windows_64-5.8.5\config\.metadata\.plugins\org.eclipse.jdt.core
+2186768118.index
+4257325822.index
+2328269416.index
+3413268192.index
+1823097104.index
+1630817929.index
+2299965022.index
+1255893076.index
