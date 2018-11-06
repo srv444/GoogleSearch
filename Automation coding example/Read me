@@ -1,0 +1,7 @@
+User Katalon: sergio.ivan.ramones@gmail.com
+Pass Katalon: 8448805550
+
+1- Open Katalon.exe in folder: Katalon_Studio_Windows_64-5.8.5
+2- Enter user name, password
+3- File-->Open Project--> *.\Automation coding example\google
+4-Test Suites--> Test Collection Search.
